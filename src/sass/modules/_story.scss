@@ -1,0 +1,129 @@
+.story {
+   background-image: url("../img/bottom_decoration_img.png");
+   background-repeat: repeat-x;
+   height:15px;
+   margin: 0;
+   width: 100%;
+ background-color: #3F3E3F;
+   
+
+}
+
+.main {
+   background-image: url('../img/main_bg.jpg');
+   display: flex;
+
+
+   .blanche {
+      margin:  10% ;
+      position: relative;
+      background-color: white;
+      @media screen and (max-width:1000px) and (min-width:200px) {
+         margin: 0%;
+
+      }
+      h1 { 
+         text-align: center;
+         
+         span {
+            color : $red
+         }
+      }
+      .image-coin-gauche {
+         position: absolute;
+         top: 0%;
+         left: 0%;
+         @media screen and (max-width:500px) {
+            height: auto;
+            
+         }
+
+      }
+      .image-coin-droit {
+         position: absolute;
+         top: 0%;
+         right: 0%;
+
+
+      }
+      .image-coin-bas-gauche {
+         position: absolute;
+         bottom: 0%;
+         left: 0%;
+
+      }
+      .image-coin-bas-droit {
+         position: absolute;
+         bottom: 0;
+         right: 0%;
+
+      }
+
+      h1 {
+         font-family: "dancing";
+         font-size: 50px;
+         @media screen and (max-width:700px) {
+            font-size: 25px;
+            
+         }
+
+      }
+
+      .p-text {
+         padding: 10% 20%;
+         text-align: center;
+    
+      }
+
+      .menu {
+         margin: 0 ;
+         .parent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 2px lightgray solid;
+            border-right: 2px lightgray solid;
+            margin-left: 20px;
+
+
+            &:hover {
+               border-right: 6px $red solid;
+               i{
+                  color: $red;
+               }
+              
+
+            }
+
+            i {
+               font-size: 60px;
+               color: lightgray;
+               padding: 20px;
+            }
+            h1 {
+               font-size: 30px;
+            }
+
+         }
+
+         img {
+            border: 4px solid lightgray;
+            border-radius: 50%;
+            height: 110px;
+            width: 110px;
+         }
+
+         h1 {
+            font-size: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         }
+         .span { 
+            color: $red;
+            background-color: lightgray;
+            margin: 0%;
+         }
+      }
+      
+   }
+
+}

@@ -1,0 +1,93 @@
+.main { 
+    padding-bottom: 5%;
+    z-index: -1;
+    .titre { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 7% 0 ;
+        
+        
+        h1 { 
+            font-family: "dancing";
+            font-weight: bold;
+            font-size: 60px;
+            span { 
+                color: $red;
+            }
+        }
+    }
+    .red { 
+        background-color: $red;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+        margin: auto;
+        border-radius: 5px;
+        @media screen and (max-width:1024px) {
+        
+            padding: 30px
+            
+            
+            
+        }
+         .liste {
+            border-bottom: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 5% ;
+            padding-bottom: 2%;
+             @media  screen and (max-width:700px) {
+                 margin: 0%;
+                 
+             }
+            i { 
+                font-size: 40px;
+                margin-bottom: 5px;
+                color: white;
+            }
+         }
+         p{
+             font-size: 18px;
+             @media screen and (max-width:700px) {
+                 font-size: 15px; 
+                 width: 50%;
+             }
+         }
+    }
+}
+ .footer{
+     margin-top: 10px;
+    background-image: url("../../../public/img/footer_background.jpg");
+     .deco-bottom {
+        background-image: url("../../../public/img/footer_bottom_decoration_img.png");
+        background-repeat: repeat-x;
+        height: 20px;
+        width: 100%;
+    }
+    .footer-left { 
+        padding: 3%;
+        h1 { 
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+        }
+        ul { 
+            list-style-type: none;
+            li{
+                margin-left: 20px ;
+            }
+        }
+    }
+
+
+ } 
+    
+.decoration { 
+    width: 100%;
+}

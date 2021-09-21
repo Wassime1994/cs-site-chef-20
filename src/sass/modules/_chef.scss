@@ -1,0 +1,29 @@
+.chef { background-image: url("../img/team_background.jpg");
+         background-size: cover;
+         .img-titre { 
+             width: 100%;
+         }
+    .titre-chef { 
+            h1 {
+                font-family: "dancing";
+                font-size: 50px;
+                color: white;
+                span {
+                    color: $red;
+                }   
+            }
+        } 
+    .tronche { 
+        padding-bottom: 20px;
+        @media screen and (max-width:800px) {
+            flex-direction: column;
+            
+        }
+        img{
+            margin-left: 5px;
+            border-bottom:1px solid white
+            
+        }
+    }
+
+    }

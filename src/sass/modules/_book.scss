@@ -1,0 +1,156 @@
+.blanche-story {
+    background-image: url("../img/main_bg.jpg") ; 
+   .madiv { 
+       background-color: white;
+       width: 100%;
+       @media screen and (max-width:900px)  and (min-width:300px) {
+           margin : 0% ; 
+           padding : 0% ; 
+
+           
+       }
+       .image-coin-gauche {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: auto;
+
+     }
+     .image-coin-droit {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+
+     }
+     .image-coin-bas-gauche {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+     }
+     .image-coin-bas-droit {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+     }
+     .madiv { 
+        .madeuxieme{
+            background-image: url("../img/book_table_bg.jpg") ; 
+            margin: 5% 10% ; 
+            padding: 30px;
+            border-radius: 15px ; 
+            @media screen and (max-width:700px) and (min-width:300px) {
+                padding: 0%;
+                margin: 0%;}
+                
+                
+                
+            }
+   
+    
+
+           
+           input { 
+            border-radius: 10px;
+            outline: none;
+            padding: 10px;
+            width: 200px;
+            &::placeholder{
+                color: black ; 
+
+           }
+
+
+       }
+       select { 
+           width: 200px;
+       }
+       button {
+           padding: 15px;
+           background-color: $red;
+           color: white;
+           border: transparent;
+           position: relative;
+           left: 50%;
+           transform: translateX(-50%);
+           margin: 10px 0px ;
+           border-radius: 35px ;
+           
+       }
+    
+
+      }
+
+}
+.madeuxieme { 
+    background-image: url('../img/book_table_bg.jpg');
+    background-repeat: repeat-y;
+    background-size: 100%;
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform : translateX(-50%);
+    @media screen and (max-width:700px)  {
+        width: 100%;
+        
+        
+    }
+    ;
+    button {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%
+        );
+    }
+}
+
+h1 {
+    font-family: "dancing";
+    font-weight: bold;
+    span { 
+        color: $red;
+    }
+}
+.card-1 {
+    margin-left: 30px;
+}
+.card-body { 
+    @media screen and (max-width:500px)  {
+        margin-top : 10%;
+    }
+    
+}
+
+.card { 
+    margin: 20% 0;
+    position: relative;
+    bottom: 0 ; 
+    border: transparent;
+
+    img {
+        border-radius: 50px;
+
+    }
+    .btn { 
+        position: absolute;
+        left:50% ;
+        transform: translateX(-50%);
+        top: 50%;
+        width: max-content;
+        padding:  5% 10%;
+        background: $red;
+        border-radius: 15px;
+    }
+
+}
+button { 
+    background: $red;
+    color: white;
+    border: transparent;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+   
+        }
