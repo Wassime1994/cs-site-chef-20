@@ -81,27 +81,7 @@
       }
 
 }
-.madeuxieme { 
-    background-image: url('../img/book_table_bg.jpg');
-    background-repeat: no-repeat ; 
-    background-size: contain ; 
-    width: 80%;
-    position: relative;
-    left: 50%;
-    transform : translateX(-50%);
-    @media screen and (max-width:700px)  {
-        width: 100%;
-        
-        
-    }
-    ;
-    button {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%
-        );
-    }
-}
+
 
 h1 {
     font-family: "dancing";
@@ -154,6 +134,38 @@ button {
 
    
         }
+    
+    
+    
+    
+    
+    
+ .madeuxieme { 
+      background-image: url('../img/book_table_bg.jpg');
+      background-repeat: repeat-y ; 
+      background-size: contain ; 
+      width: 80%;
+      position: relative;
+      left: 50%;
+      transform : translateX(-50%);
+      @media screen and (max-width:700px)  {
+          width: 100%;
+      }
+      input {
+          width: 200px
+      }
+      select { 
+          width: 200px ; 
+      }
+      ;
+      button {
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%
+                );
+            }
+        }
+
 
 
 .papa { 
