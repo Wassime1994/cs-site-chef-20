@@ -142,8 +142,7 @@ button {
     
  .madeuxieme { 
       background-image: url('../img/book_table_bg.jpg');
-      background-repeat: repeat-y ; 
-      background-size: contain ; 
+      background-size: 100% ; 
       width: 80%;
       position: relative;
       left: 50%;
@@ -157,7 +156,7 @@ button {
       select { 
           width: 200px ; 
       }
-      ;
+      
       button {
           position: relative;
           left: 50%;
