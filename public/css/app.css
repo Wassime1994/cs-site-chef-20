@@ -6138,15 +6138,14 @@ header {
 }
 header .nav {
   display: flex;
-  justify-content: between;
   align-items: center;
   margin-top: 1%;
   position: absolute;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   header .nav img {
-    height: auto;
-    width: 100%;
+    height: 60px;
+    width: 100px;
   }
 }
 header .nav div {
@@ -6442,7 +6441,6 @@ header .para h1, header .para .h1 {
   right: 0%;
 }
 .blanche-story .madiv .madiv .madeuxieme {
-  background-image: url("../img/book_table_bg.jpg");
   margin: 5% 10%;
   padding: 30px;
   border-radius: 15px;
@@ -6478,9 +6476,9 @@ header .para h1, header .para .h1 {
 }
 .blanche-story .madeuxieme {
   background-image: url("../img/book_table_bg.jpg");
-  background-repeat: repeat-y;
-  background-size: 100%;
-  width: 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -6535,6 +6533,21 @@ header .para h1, header .para .h1 {
   border: transparent;
   padding: 10px;
   border-radius: 20px;
+}
+
+.papa {
+  position: relative;
+}
+.papa img {
+  border-radius: 25px;
+}
+.papa a {
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+  right: 10%;
+  height: 50px;
+  border-radius: 15px;
 }
 
 .client {

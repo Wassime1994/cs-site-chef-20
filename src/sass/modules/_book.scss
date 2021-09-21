@@ -34,7 +34,7 @@
      }
      .madiv { 
         .madeuxieme{
-            background-image: url("../img/book_table_bg.jpg") ; 
+            // background-image: url("../img/book_table_bg.jpg") ; 
             margin: 5% 10% ; 
             padding: 30px;
             border-radius: 15px ; 
@@ -83,9 +83,9 @@
 }
 .madeuxieme { 
     background-image: url('../img/book_table_bg.jpg');
-    background-repeat: repeat-y;
-    background-size: 100%;
-    width: 40%;
+    background-repeat: no-repeat ; 
+    background-size: contain ; 
+    width: 80%;
     position: relative;
     left: 50%;
     transform : translateX(-50%);
@@ -125,7 +125,7 @@ h1 {
     position: relative;
     bottom: 0 ; 
     border: transparent;
-
+ 
     img {
         border-radius: 50px;
 
@@ -154,3 +154,25 @@ button {
 
    
         }
+
+
+.papa { 
+    
+    position: relative;
+    img { 
+        border-radius: 25px;
+        
+    }
+    a {
+        position: absolute ; 
+        bottom:  10px ; 
+        left: 10% ; 
+        right: 10%;
+        // width: 80% ; 
+        height: 50px ; 
+        border-radius : 15px
+    }
+    ;
+}
+
+
